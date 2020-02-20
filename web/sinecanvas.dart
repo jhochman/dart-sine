@@ -2,7 +2,6 @@ library SineCanvas;
 
 import 'dart:html';
 import 'dart:math' as Math;
-import 'dart:web_gl';
 
 String PI = new String.fromCharCode(960);
 
@@ -10,8 +9,8 @@ class SineCanvas {
   double seconds = 0.0, t = 0.0;
   CanvasElement canvas;
   var unit = 100,
-  context, canvas2, context2,
-  height, width, xAxis, yAxis;
+      context, canvas2, context2,
+      height, width, xAxis, yAxis;
 
   void init (var id) {
 
