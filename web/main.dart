@@ -1,6 +1,5 @@
 import 'dart:html';
 
-import 'package:stats/stats.dart';
 import 'sinecanvas.dart';
 //import 'sinesvg.dart';
 
