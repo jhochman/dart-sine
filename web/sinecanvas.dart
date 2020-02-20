@@ -4,8 +4,6 @@ import 'dart:html';
 import 'dart:math' as Math;
 import 'dart:web_gl';
 
-import 'package:stats/stats.dart';
-
 String PI = new String.fromCharCode(960);
 
 class SineCanvas {
